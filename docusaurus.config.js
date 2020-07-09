@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Happy Code',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://github.com/Clear2/blog',
   baseUrl: '/blog/',
   favicon: 'img/favicon.ico',
   organizationName: 'clear2', // Usually your GitHub org/user name.
@@ -23,7 +23,7 @@ module.exports = {
         {to: 'blog', label: 'Blog', position: 'left'},
         {to: 'vue/', label: 'Vue', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Clear2',
           label: 'GitHub',
           position: 'right',
         },
@@ -54,7 +54,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Clear2/blog',
             },
           ],
         },
@@ -72,13 +72,12 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/Clear2/blog/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/Clear2/blog/tree/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
